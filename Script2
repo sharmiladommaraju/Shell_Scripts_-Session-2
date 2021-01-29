@@ -1,0 +1,16 @@
+#!/bin/bash
+
+who | sort
+  it will display account information (user login name, user's terminal, time of login as well as the host the user is logged in from) on your system.
+  
+who | sort > user_list
+  fetch the output of a command (who | sort) and redirect the output into a file (user_list)
+
+who | wc -l
+it will count the lines and preint the result
+
+ls -l | wc -l
+(ls -l )it will print the long listing files and (wc -l) will display the count of files
+
+who | grep cZ
+The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern. 
