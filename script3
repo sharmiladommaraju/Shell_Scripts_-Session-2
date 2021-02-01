@@ -1,1 +1,31 @@
-
+#!/bin/bash
+ 
+if test $1 -gt 0 (1 is greater than 0)
+then
+        echo "$1 > 0"
+fi (it indicates the end of inner if statement)
+ 
+if test $1 -ge 0 (greater than or equal to)
+then
+        echo "$1 >= 0"
+fi
+ 
+if test $1 -eq 0 (equal to)
+then
+        echo "$1 == 0"
+fi
+ 
+if test $1 -ne 0 (not equal to)
+then
+        echo "$1 != 0"
+fi
+ 
+if test $1 -lt 0 (less than)
+then
+        echo "$1 < 0"
+fi
+ 
+if test $1 -le 0 (less than or equal to)
+then
+        echo "$1 <= 0"
+fi
